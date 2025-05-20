@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-uri = ""
+uri = ${{env.MY_VARIABLE}}
 client = MongoClient(uri)
 db = client.ejercicios
 
